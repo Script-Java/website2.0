@@ -29,8 +29,8 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section className="py-16 px-6 bg-black text-white">
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+    <section className="py-16 px-4 sm:px-6 bg-black text-white">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {projects.map((project, index) => (
           <motion.a
             href={project.link}
@@ -46,11 +46,11 @@ export default function Projects() {
             <img
               src={project.src}
               alt={project.title || 'project thumbnail'}
-              className="w-full h-full object-cover"
+              className="w-full h-48 sm:h-56 md:h-64 object-cover"
             />
             {project.title && (
               <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
-                <p className="text-white text-lg">{project.title}</p>
+                <p className="text-white text-sm sm:text-base text-center px-2">{project.title}</p>
               </div>
             )}
           </motion.a>

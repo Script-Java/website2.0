@@ -49,7 +49,7 @@ export default function Hero() {
         </div>
 
         <motion.div className="text-xl max-w-3xl font-mono text-neutral-300">
-          I’m a designer working on the Human Interface Team at Apple. My passion is to create emotional experiences at the intersection of art, design, and AI.
+          I help businesses grow through clean web development and smart SEO. My focus is building sites that look great, load fast, and bring in real results.
         </motion.div>
 
         <motion.button

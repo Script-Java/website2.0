@@ -7,8 +7,8 @@ import icon4 from "../assets/skills/4.png";
 
 export default function About() {
   const skills = [
-    { id: 1, icon: icon1, title: "Frontend Development", stack: "React, Vite, TailwindCSS" },
-    { id: 2, icon: icon2, title: "Backend / APIs", stack: "Node.js, Express, Flask, SQL" },
+    { id: 1, icon: icon1, title: "Frontend Development", stack: "React, NEXT.js, Vite, TailwindCSS" },
+    { id: 2, icon: icon2, title: "Backend / APIs", stack: "Python, FastAPI, Flask, SQL" },
     { id: 3, icon: icon3, title: "UI/UX & Design Systems", stack: "Figma, Framer, Motion UI" },
     { id: 4, icon: icon4, title: "SEO & Performance", stack: "Core Web Vitals, GMB, On-page SEO" },
   ];
@@ -25,13 +25,13 @@ export default function About() {
         >
           <h2 className="text-5xl font-bold font-mono mb-6">About Me</h2>
           <p className="text-lg font-mono leading-relaxed text-neutral-300">
-            I’m Atrin — a web developer who blends speed, design, and functionality to build clean and impactful websites. I focus
+            I’m Atrin a web developer who blends speed, design, and functionality to build clean and impactful websites. I focus
             on React, Vite, and TailwindCSS to create highly responsive and visually polished front-ends that load fast and convert.
             <br /><br />
             Whether it's launching websites for startups or automating workflows for local businesses, my goal is always to deliver
             results with a sharp eye for detail and user experience.
             <br /><br />
-            Outside of development, you’ll find me lifting weights, working on side projects, or exploring new tech tools that
+            Outside of development, you’ll find me working on side projects, or exploring new tech tools that
             streamline creative workflows.
           </p>
         </motion.div>
@@ -63,7 +63,7 @@ export default function About() {
         {skills.map((skill) => (
           <motion.div
             key={skill.id}
-            className="flex gap-6 items-start cursor-pointer"
+            className="flex gap-8 items-start cursor-pointer"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             whileHover={{ scale: 1.05, rotate: 1 }}
