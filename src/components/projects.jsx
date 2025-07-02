@@ -7,8 +7,8 @@ import img5 from "../assets/projects/5.jpg";
 import img6 from "../assets/projects/6.jpg";
 import img7 from "../assets/projects/7.jpg";
 import img8 from "../assets/projects/8.jpg";
+import img9 from "../assets/projects/9.jpg";
 import img10 from "../assets/projects/10.jpg";
-import img11 from "../assets/projects/11.jpg";
 import img12 from "../assets/projects/12.jpg";
 import img13 from "../assets/projects/13.jpg";
 
@@ -24,6 +24,8 @@ const projects = [
   { id: 10, src: img10, title: 'Magic Touch LLC', link: 'https://magictouchpaintingllc.com/' },
   { id: 12, src: img12, title: 'Texas Five Star Paint and Body', link: 'https://texasfivestarpaintandbody.com/' },
   { id: 13, src: img13, title: 'TFSM', link: 'https://texasfivestarmarketing.com/' },
+  { id: 14, src: img9, title: 'LBJ', link: 'https://lbjfoodmart.com/' },
+
 ];
 
 export default function Projects() {
